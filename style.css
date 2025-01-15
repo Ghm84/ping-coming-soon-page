@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 10rem;
+    overflow: auto;
+}
+
+.canvas {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+    font-family: "Libre Franklin";
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.logo-container {
+    max-width: 30rem;
+    margin-left: 10rem;
+}
+
+.ping-logo {
+    max-width: 10rem;
+    width: 7rem;
+}
+
+.main-text-div {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.main-title {
+    color: hsl(0, 0%, 59%);
+    font-size: 2.9rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-left: -2rem;
+}
+
+.soon {
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+
+.secondary-title {
+    color: hsl(209, 33%, 12%);
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1.25rem;
+    margin-left: 4.25rem;
+}
+
+.input-div {
+    max-width: 100%;
+    width: 100%;
+}
+
+input {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 59%);
+    max-width: 40rem;
+    width: 35rem;
+    margin-top: 4rem;
+    margin-left: -4rem;
+    margin-bottom: 2rem;
+    padding-top: 1.75rem;
+    padding-left: 4rem;
+    padding-bottom: 1.75rem;
+    font-size: 1.6rem;
+    border: 2px solid hsl(223, 100%, 88%);
+    border-radius: 4rem;
+}
+
+.email-error-message {
+    position: absolute;
+    color: hsl(354, 79%, 64%);
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-top: -1.4rem;
+    margin-left: 3rem;
+}
+
+.button-container {
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+}
+
+button {
+    background-color: hsl(223, 87%, 63%);
+    color: hsl(0, 0%, 100%);
+    max-width: 40rem;
+    width: 35rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: -4rem;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    font-size: 1.55rem;
+    border: none;
+    border-radius: 4rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.illustration-div {
+    max-width: 100%;
+    width: 100%;
+}
+
+.illustration-img {
+    max-width: 50rem;
+    width: 40rem;
+    margin-top: 14rem;
+    margin-left: -6rem;
+}
+
+.social-media-div {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 15rem;
+    margin-left: 6rem;   
+}
+
+.facebook-container, .twitter-container, .instagram-container {
+    color: hsl(222, 44%, 87%);
+    display: inline-block;
+    max-width: 5rem;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+    border: 1.2px solid;
+    border-radius: 50%;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.social-media-div .facebook-container i {
+    font-size: 2rem;
+    margin: 0.8rem;
+    text-align: center;
+}
+
+.social-media-div .twitter-container i {
+    font-size: 1.8rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.social-media-div .instagram-container i {
+    font-size: 1.8rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.social-media-div i {
+    font-size: 2.5rem; 
+    color: #187ae7; 
+    margin: 0.8rem; 
+    transition: color 0.3s ease; 
+}
+
+footer {
+    color: hsl(0, 0%, 59%);
+    max-width: 100%;
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+@media screen and (min-width: 992px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow: auto;
+    }
+
+    .canvas {
+        max-width: 100%;
+        width: 60%;
+        margin-top: 10rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-container {
+        max-width: 100%;
+        width: 100%;
+        margin-top: -3rem;
+    }
+
+    .ping-logo {
+        max-width: 10rem;
+        width: 5.5rem;
+        margin-left: 21rem;
+    } 
+
+    .main-text-div {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 6rem;
+        margin-left: 20rem;
+    }
+
+    .main-title {
+        margin-top: -3rem;
+    }
+
+    .secondary-title {
+        font-size: 1.3rem;
+        margin-top: -0.5rem;
+        margin-left: 6rem;
+    }
+
+    .input-div {
+        max-width: 20rem;
+        width: 10rem;
+        margin-top: -1rem;
+        margin-left: 18rem;
+    }
+
+    input {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(0, 0%, 59%);
+        max-width: 30rem;
+        width: 27rem;
+        padding-top: 1rem;
+        padding-left: 1.75rem;
+        padding-bottom: 1rem;
+        font-size: 1.05rem;
+        border: 1px solid hsl(225, 44%, 85%);
+    }
+
+    .email-error-message {
+        display: none;
+        position: absolute;
+        color: hsl(354, 63%, 62%);
+        font-size: 0.8rem;
+        font-weight: 500;
+        font-style: italic;
+        text-align: center;
+        margin-top: -1rem;
+        margin-left: -2rem;
+    }
+
+    .button-container {
+        position: relative;
+        max-width: 20%;
+        width: 100%;
+        margin-top: -7.5rem;
+        margin-left: 46rem;
+    }
+
+    button {
+        max-width: 20rem;
+        width: 12rem;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        font-size: 1rem;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .illustration-div {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .illustration-img {
+        width: 41rem;
+        margin-top: 5rem;
+        margin-left: 12.5rem;
+    }
+
+    .social-media-div {
+        margin-top: 4rem;
+        margin-left: 29rem;
+    }
+
+    .facebook-container, .twitter-container, .instagram-container {
+        color: hsl(221, 73%, 96%);
+        display: inline-block;
+        max-width: 5rem;
+        width: 2rem;
+        height: 2rem;
+        margin-top: 0.2rem;
+        margin-right: 1rem;
+        border: 1.2px solid;
+        border-radius: 50%;
+        text-align: center;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .social-media-div .facebook-container i, .social-media-div .twitter-container i, .social-media-div .instagram-container i {
+        font-size: 0.9rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 1rem;
+        margin-left: 26.5rem;
+        font-size: 0.8rem;
+    }
+
+    .notify:hover {
+        cursor: pointer;
+        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .facebook-container:hover, .twitter-container:hover, .instagram-container:hover {
+        background-color: hsl(218, 100%, 52%); 
+        transform: scale(1.1);
+        border: none;
+        cursor: pointer;
+    }
+
+    .facebook-container:hover i, .twitter-container:hover i, .instagram-container:hover i {
+    color: hsl(220, 69%, 97%);
+    }
+    
+}
+    
+
